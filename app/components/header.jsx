@@ -21,7 +21,7 @@ const Header = () => {
         </div>
     </div>
 
-    <div className="flex justify-evenly bg-slate-500 py-2 text-white">
+    <div className="flex justify-evenly bg-slate-500 py-2 text-white cursor-pointer">
         <Link href={'/'}>Home</Link>
         <Link href={'/products'}>Products</Link>
         <Link href={'/services'}>Services</Link>
